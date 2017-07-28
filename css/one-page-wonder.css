@@ -3,6 +3,47 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+#brand,
+.navbar-brand {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#logo {
+  margin-top: -8vh;
+  width: 60vw;
+}
+
+img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.attn-1 {
+  font-size: 1.8em;
+}
+
+.attn-2 {
+  font-family: 'Merriweather';
+}
+
+.attn-3 {
+  font-size: 1.3em;
+}
+
+.attn-4 {
+  font-size: 1.4em;
+}
+
+.attn-5 {
+  font-size: 1.85em;
+  text-align: center;
+}
+
+/**/
 
 body {
     padding-top: 54px;
@@ -15,7 +56,7 @@ body {
 }
 
 header.masthead {
-    background: url('https://unsplash.it/1900/1080?image=304') no-repeat center center scroll;
+    /*background: url('https://unsplash.it/1900/1080?image=304') no-repeat center center scroll;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -25,7 +66,7 @@ header.masthead {
 header.masthead > .overlay {
     padding: 5rem 0;
     text-align: center;
-    background: rgba(0, 0, 0, 0.6);
+    /*background: rgba(0, 0, 0, 0.6);*/
 }
 
 @media (min-width: 992px) {
