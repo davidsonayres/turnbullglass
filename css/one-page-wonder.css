@@ -51,8 +51,14 @@ img {
 
 #logo-contact {
   margin-top: -12vh;
-  width: 20vw;
+  width: 50vw;
   min-width: 200px;
+}
+
+#brand-contact {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 3.5vw;
+  letter-spacing: 0.9vw;
 }
 
 #contact-form {
@@ -107,6 +113,10 @@ a:visited,
 a:hover,
 a:active {
   color: orange;
+}
+
+.space {
+  margin-top: 4vh;
 }
 
 /**/
